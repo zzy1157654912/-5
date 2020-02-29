@@ -1,0 +1,91 @@
+*{margin:0;padding:0}
+body {
+	width: 100%;
+	background: url(../img/背景.png);
+	background-size: 100%;
+	}
+li {
+	list-style: none;
+}
+.BIG{
+	position: relative;
+}
+.logo{
+	margin:2% 0 0 3%;
+}
+.pic{
+	width:40%;
+	height:3.4rem;
+	background:url(../img/插画3.png)no-repeat;
+	background-size:88%;
+	margin:-6% 0 0 35%;
+}
+.content{
+	width:80%;
+	height:5.5rem;
+	margin:0 auto;	
+}
+.title{
+	width:100%;
+	height:0.5rem;
+	text-align:center;
+	position:relative;
+}
+.a{
+	display:inline-block;
+	margin:-0.1rem 5% 0 0;
+}
+.b{
+	display:inline-block;
+	margin:-0.1rem 5% 0 0;
+}
+.c{
+	display:inline-block;
+	margin:-0.1rem 5% 0 0;
+}
+.data{
+	text-align:center;
+}
+.d{
+	display: inline-block;
+	margin-right:20%;
+}
+.e{
+	display: inline-block;
+	margin-right:20%;
+}
+.f{
+	display: inline-block;
+	margin-right:10%;
+}
+.datas{
+	width:100%;
+	height:3.5rem;
+}
+.circle{
+	width:0.9rem;
+	height:0.9rem;
+	border-radius:50% 50%;
+	float:left;
+	font-size:0.5rem;
+	color:#f08778;
+	background:white;
+	text-align: center;
+	margin:0 0 5% 6%;
+	line-height:0.8rem;
+}
+#first{
+	color:white;
+	background:#f08778;
+}
+#second{
+	color:white;
+	background:#f08778;
+}
+.button img{
+	margin-left:25%;
+}
+.paiming img{
+	width:90%;
+	margin-left:5%;
+}

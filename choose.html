@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>移动端</title>
+		<link rel="stylesheet" type="text/css" href="css/choose.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	</head>
+	<body>
+		<div class="logo"><img src="img/logo与标准字.png"/></div>					
+		<div class="content">
+			<ul>
+				<li class="box1">
+					<a href="danren.html">
+						<img  id="one" src="img/单人模式.png"/>
+						
+					</a>
+					<img id="first" src="img/单人模式点击效果.png"/ style="width:0.6rem">
+				</li>
+				<li class="box2">
+					<a href="haoyou.html">
+						<img id="two" src="img/好友组队.png"/>
+					</a>
+					<img  id="second" src="img/好友组队点击效果.png"/ style="width:0.75rem">
+
+				</li>
+				<li class="box3">
+					<a href="pipei.html">
+						<img id="three" src="img/随机匹配.png"/>
+					</a>
+					<img id="third" src="img/随机匹配点击效果.png"/ style="width:0.6rem">
+				</li>
+			</ul>
+			
+		</div>
+		<script type="text/javascript">
+			var one=document.getElementById('one');
+			var two=document.getElementById('two');
+			var three=document.getElementById('three');
+			var first=document.getElementById('first');
+			var second=document.getElementById('second');
+			var third=document.getElementById('third');
+			one.onclick=function(){
+				first.style.display='block';
+			}
+			two.onclick=function(){
+				second.style.display='block';
+			}
+			three.onclick=function(){
+				third.style.display='block';
+			}
+		</script>
+	</body>
+</html>

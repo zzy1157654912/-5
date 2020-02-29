@@ -1,0 +1,197 @@
+﻿* {margin: 0 auto;}
+.BIG {width: 100%;
+          height: 62.5rem;}
+html body{
+	height: 100%;
+	background: url(../img/背景.png);
+	background-size:100% ;
+}
+.button {width: 10.19%;
+         height: 10.19%;
+		 background: url(../img/button-关闭.png)no-repeat;
+		 position: absolute;
+		 left: 6.5%;
+		 top: 2.9%;}
+.man {width: 5.625rem;
+      height: 5.625rem;
+	  background-color:#f3c776;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 19%;
+	  left: 36%;}
+.woman {width: 5.625rem;
+      height: 5.625rem;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 19%;
+	  left: 54%;}
+.mi {width: 5.625rem;
+      height: 5.625rem;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 19%;
+	  left: 72%;}
+
+
+.pic_first {width: 14.81%;
+            height: 36.98%;
+			position: absolute;
+			left: 10.65%;
+			top: 3.895%;}
+.pic_1 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 4.9%;
+		background: url(../img/icon-姓名.png)no-repeat;}
+.pic_2 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 36.9%;
+		background: url(../img/icon-性别.png)no-repeat;}
+.pic_3 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 62.9%;
+		background: url(../img/QQ.png)no-repeat;}
+.pic_4 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 94.9%;
+		background: url(../img/icon-电话.png)no-repeat;}
+.username {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 12.9375%;
+		   left: 130.85%;
+		   border-radius: 5rem;
+		    font-size:2.5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+
+.QQ {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 65.7375%;
+		   left: 130.85%;
+		   border-radius: 5rem;
+		    font-size:2.5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+
+.PHONE {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 103.1375%;
+		   left: 130.85%;
+		   border-radius: 5rem;
+			 font-size:2.5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.main {width: 21.76%;
+       height: 20.80%;
+	   position: absolute;
+	   background: url(../img/icon1-我的信息.png)no-repeat;
+	   left: 8.3%;
+	   top: 52.08%;}
+.your_partner {width: 21.76%;
+       height: 20.80%;
+	   position: absolute;
+	   background: url(../img/icon-搭档信息.png)no-repeat;
+	   left: 8.3%;
+	   top: 71.83%;}
+.send {height: 6.0625rem;
+       width: 376px;
+	   position: absolute;
+	   left: 50%;
+	   transform: translateX(-50%);
+	   top: 93.625%;}
+.bit_send {height: 100%;
+       width: 100%;
+	   position: absolute;
+	   background: url(../img/button-报名.png)no-repeat;
+	   border-radius: 5rem;
+	   border: none;
+	   background-size: 100%;}
+.key1 {width: 63.89%;
+       height: 17.80%;
+	   position: absolute;
+	   left: 31.48%;
+	   top: 53.08%;}
+.key2 {width: 63.89%;
+       height: 17.80%;
+	   position: absolute;
+	   left: 31.48%;
+	   top: 72.83%;}
+.btn {border-radius: 5rem ;
+      background-color: white;
+	  border: none;
+	  font-size: 1.7rem;}
+#fo {width: 6.875rem;
+     height: 27.27%;
+	 position: absolute;}
+#tuo {height: 27.27%;
+position: absolute;
+width: 20%;
+left: 24%;}
+#book {height: 27.27%;
+position: absolute;
+top: 32%;
+width: 15%;
+left: 57%;}
+#dog {height: 27.27%;
+position: absolute;
+width: 24%;
+top: 32%;
+left: 30%;}
+#fat {height: 27.27%;
+      left: 0%;
+	  position: absolute;
+	  width: 15%;
+	  top: 65%;
+	  left: 0;}
+#eat {height: 27.27%;
+      left: 0%;
+	  position: absolute;
+	  top: 32%;
+	  width: 28%;}
+#gao {height: 27.27%;
+position: absolute;
+width: 28%;
+left: 74%;}
+#shit {height: 27.27%;
+position: absolute;
+width: 24%;
+left: 78%;
+top: 32%;
+}
+#skill {height: 27.27%;
+position: absolute;
+left: 72%;
+top: 65%;
+width: 30%;}
+#tank {height: 27.27%;
+position: absolute;
+width: 15%;
+left: 52%;}
+#zi {height: 27.27%;
+position: absolute;
+top: 65%;
+left: 52%;
+width: 15%;}
+#word {height: 27.27%;
+position: absolute;
+width: 24%;
+top: 65%;
+left: 21%;}

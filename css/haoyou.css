@@ -1,0 +1,227 @@
+* {margin: 0 auto;}
+.BIG {width: 100%;
+          height: 62.5rem;}
+html body{
+	height: 100%;
+	background: url(../img/背景.png);
+	background-size:100% ;
+}
+.button {width: 10.19%;
+         height: 10.19%;
+		 background: url(../img/button-关闭.png)no-repeat;
+		 position: absolute;
+		 left: 6.5%;
+		 top: 2.9%;}
+.man {width: 8.3%;
+      height: 5.3%;
+	  background-color:#f3c776;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 22%;
+	  left: 36%;}
+.woman  {width: 8.3%;
+      height: 5.3%;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 22%;
+	  left: 54%;}
+.mi {width: 8.3%;
+      height: 5.3%;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 22%;
+	  left: 72%;}
+.man2 {width: 8.3%;
+      height: 5.3%;
+	  background-color:#f3c776;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  left: 36%;
+	  top: 67%;}
+.woman2 {width: 8.3%;
+      height: 5.3%;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  left: 54%;
+	  top: 67%;}
+.mi2  {width: 8.3%;
+      height: 5.3%;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  left: 72%;
+	  top: 67%;}
+.your_information {width: 27.78%;
+                   height: 4.43%;
+				   background: url(../img/你的信息：.png)no-repeat;
+				   position: absolute;
+				   left: 23.15%;
+				   top: 5%;}
+.pic_first {width: 14.81%;
+            height: 36.98%;
+			position: absolute;
+			left: 10.65%;
+			top: 7.895%;}
+.pic_1 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 4.9%;
+		background: url(../img/icon-姓名.png)no-repeat;}
+.pic_2 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 36.9%;
+		background: url(../img/icon-性别.png)no-repeat;}
+.pic_3 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 62.9%;
+		background: url(../img/QQ.png)no-repeat;}
+.pic_4 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 94.9%;
+		background: url(../img/icon-电话.png)no-repeat;}
+.pic_5 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 4.9%;
+		background: url(../img/icon-姓名.png)no-repeat;}
+.pic_6 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 36.9%;
+		background: url(../img/icon-性别.png)no-repeat;}
+.pic_7 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 62.9%;
+		background:url(../img/QQ.png)no-repeat;}
+.pic_8 {width: 100%;
+        height: 35%;
+		position: absolute;
+		left: 10.65%;
+		top: 94.9%;
+		background: url(../img/icon-电话.png)no-repeat;}
+.pic_second {width: 14.81%;
+            height: 36.98%;
+			position: absolute;
+			left: 10.65%;
+			top: 52.895%;}
+.your_mate {width: 50%;
+            height: 4.427%;
+			position: absolute;
+			background: url(../img/你的搭档的信息：.png)no-repeat;
+			left: 25.22%;
+			top: 53%;
+			}
+.username {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 12.9375%;
+		   left: 130.85%;
+		    font-size:2.5rem;
+		   border-radius: 5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.username2 {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 12.9375%;
+		   left: 130.85%;
+		    font-size:2.5rem;
+		   border-radius: 5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.QQ {
+			width: 400%;
+      height: 14.6875%;
+		  background-color: #ffffff;
+		  position: absolute;
+		  top: 65.7375%;
+		  left: 130.85%;
+		  border-radius: 5rem;
+		   font-size:2.5rem;
+		  border: solid 0.3125rem #f3c776;
+		   }
+.QQ2 {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 61.7375%;
+		   left: 130.85%;
+		    font-size:2.5rem;
+		   border-radius: 5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.PHONE {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 97.1375%;
+		   left: 130.85%;
+		    font-size:2.5rem;
+		   border-radius: 5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.PHONE2 {width: 400%;
+           height: 14.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 94.1375%;
+		   left: 130.85%;
+		    font-size:2.5rem;
+		   border-radius: 5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.team {width: 40%;
+       height: 4.27%;
+	   position: absolute;
+	   left: 42.85%;
+	   top: 94.5%;
+	    font-size:2.5rem;
+	   border-radius:5rem ;
+	   border: solid 0.3125rem #f3c776;}
+.you_are {width: 18.52%;
+          height: 3.65%;
+		  position: absolute;
+		  top: 95.5%;
+		  left: 25%;
+		  background: url(../img/你们是.png)no-repeat;}
+.content {width: 13.89%;
+          height: 3.65%;
+		  position: absolute;
+		  top: 95.5%;
+		  left: 85%;
+		  background: url(../img/组合.png)no-repeat;
+          }
+.send {height: 6.0625rem;
+       width: 23.5rem;
+	   position: absolute;
+	   left: 75%;
+	   transform: translateX(-50%);
+	   top: 4%;}
+.bit_send {height: 100%;
+       width: 100%;
+	   position: absolute;
+	   background: url(../img/button-报名.png)no-repeat;
+	   border-radius: 5rem;
+	   border: none;}

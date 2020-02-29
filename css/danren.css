@@ -1,0 +1,141 @@
+* {margin: 0 auto;}
+.BIG_DIV {width: 100%;
+          height: 62.5rem;}
+html body{
+	height: 100%;
+	background: url(../img/背景.png);
+	background-size:100% ;
+}
+.button {width: 10.19%;
+         height: 10.19%;
+		 background: url(../img/button-关闭.png)no-repeat;
+		 position: absolute;
+		 left: 6.5%;
+		 top: 2.9%;}
+.pic_1 {width: 11.19%;
+        height: 15%;
+		position: absolute;
+		background: url(../img/icon-姓名.png)no-repeat;
+		left: 10.19%;
+		top: 10.9375%;}
+.pic_2 {width: 11.19%;
+        height: 15%;
+		position: absolute;
+		background: url(../img/icon-性别.png)no-repeat;
+		left: 10.19%;
+		top: 22.3375%;}
+.pic_3 {width: 11.19%;
+        height: 15%;
+		position: absolute;
+		background: url(../img/QQ.png)no-repeat;
+		left: 10.19%;
+		top: 33.7375%;}
+.pic_4 {width: 11.19%;
+        height: 15%;
+		position: absolute;
+		background: url(../img/icon-电话.png)no-repeat;
+		left: 10.19%;
+		top: 45.1375%;}
+.chahua {width: 85%;
+         height: 47.25%;
+		 position: absolute;
+		 transform: translateX(-50%);
+		 left: 50%;
+		 top: 48.125%;
+		 background: url(../img/插画2.png)no-repeat;
+		 background-size:100% ;}
+.username {width: 60%;
+           height: 4.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 12.9375%;
+		   left: 26.85%;
+		   border-radius: 5rem;
+		  font-size:2.5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.QQ {width: 60%;
+           height: 4.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 34.7375%;
+		   left: 26.85%;
+		   border-radius: 5rem;
+		    font-size:2.5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.PHONE {width: 60%;
+           height: 4.6875%;
+		   background-color: #ffffff;
+		   position: absolute;
+		   top: 46.1375%;
+		   left: 26.85%;
+		   border-radius: 5rem;
+		    font-size:2.5rem;
+		   border: solid 0.3125rem #f3c776;
+		   }
+.male {width: 9.26%;
+       height: 5.20%;
+	   position: absolute;
+	   left: 34.72%;
+	   top: 23.77%;
+	   background-color: yellow;
+
+;}
+
+.female {width: 9.26%;
+       height: 5.20%;
+	   position: absolute;
+	   top: 23.77%;
+	   left: 52.72%;}
+.scrite {width: 9.26%;
+       height: 5.20%;
+	   position: absolute;
+	   top: 23.77%;
+	   left: 70.72%;}
+.tips_one {color: red;
+           position: absolute;
+		   left: 27.31%;
+		   top: 19.01%;
+		   font-size: 1.9375rem;}
+.tips_two {color: red;
+           position: absolute;
+		   font-size: 1.9375rem;
+		   left: 40.31%;
+		   top: 51.57%;}
+.send {height: 6.0625rem;
+       width: 23.5rem;
+	   position: absolute;
+	   left: 50%;
+	   transform: translateX(-50%);
+	   top: 93.625%;}
+.bit_send {height: 100%;
+       width: 100%;
+	   position: absolute;
+	   background: url(../img/button-报名.png)no-repeat;
+	   border-radius: 5rem;
+	   border: none;}
+.man {width: 8.3%;
+      height: 4.5%;
+	  background-color:#f3c776;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 23%;
+	  left: 36%;}
+.woman  {width: 8.3%;
+      height: 4.5%;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 23%;
+	  left: 54%;}
+.mi {width: 8.3%;
+      height: 4.5%;
+	  background-color:white;
+	  border-radius: 50%;
+	  font-size: 2.5rem;
+	  position: absolute;
+	  top: 23%;
+	  left: 72%;}

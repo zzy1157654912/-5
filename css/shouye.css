@@ -1,0 +1,171 @@
+*{
+	margin:0;padding:0
+}
+body{
+	background:url(../img/背景.png);
+	background-size:100%;
+}
+.banner{
+	padding-left:0.2rem;
+}
+.banner img{
+	width:98%;
+}
+.two{
+	position:relative;
+	width:100%;
+	padding:0.2rem 1rem 0rem 1rem;
+}
+.first{
+	width:2.2rem;	
+}
+.second{
+	width:2.2rem;
+	margin-left:1rem;
+}
+.mini-content{
+	display:none;
+	position:absolute;
+	top:-0.5rem;
+	left:8%;
+	width:55%;
+	border:1px solid red;
+	font-size:0.28rem;
+	padding:5px 12px;
+	z-index:1002;
+	overflow:auto;
+	background:white;
+	border:1px solid rgb(243,199,118);
+	border-radius:10px;
+	line-height:0.5rem;
+}
+.back{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgb(0,0,0,0.3);
+}
+.error{
+	width:10%;
+}
+.line{
+	display: inline-block;
+	margin-left:1.4rem;
+	font-size:0.35rem;
+}
+.content{
+	width:100%;
+	padding:0 0.1rem 0 0.1rem;
+	position:relative;
+	text-align:center;
+}
+.chahua img{
+	width:65%;
+}
+.deng img{
+	width:17%;
+	position:absolute;
+	top:0.2rem;
+	left:0.1rem;
+	animation: firstmove 1s infinite;
+}
+@keyframes firstmove{
+	0%{transform: rotate(20deg);}
+    50%{transform: rotate(0deg);}
+    100%{transform: rotate(20deg);}
+} 
+.book img{
+	width:17%;
+	position:absolute;
+	top:3.7rem;
+	left:0.4rem;
+	animation: firstmove 1s infinite;
+}
+.cup img{
+	width:10%;
+	position:absolute;
+	top:5.4rem;
+	left:0.9rem;
+	animation: firstmove 1s infinite;
+}
+.star img{
+	width:6%;
+	position:absolute;
+	top:0.2rem;
+	right:0.6rem;
+	animation: firstmove 1s infinite;
+}
+.phone img{
+	width:15%;
+	position: absolute;
+	top:2rem;
+	right:0.5rem;
+	animation: firstmove 1s infinite;
+}
+.pen img{
+	width:9%;
+	position:absolute;
+	top:3.5rem;
+	right:0.6rem;
+	animation: firstmove 1s infinite;
+}
+.clock img{
+	width:20%;
+	position:absolute;
+	top:5rem;
+	right:0.6rem;
+	animation: firstmove 1s infinite;
+}
+#button{
+	text-align:center;
+}
+#button img{
+	width:45%;
+}
+#F{
+	display:none;
+}
+#S{
+	display:none;
+}
+#T{
+	display:none;
+}
+#F img{
+	width:12%;
+	position:absolute;
+	bottom:23%;
+	right:25%;
+	transform:rotate(30deg);
+}
+#S img{
+	width:12%;
+	position:absolute;
+	bottom:10%;
+	right:19%;
+	transform:rotate(90deg);
+}
+#T img{
+	width:12%;
+	position:absolute;
+	bottom:22%;
+	left:24%;
+	transform:rotate(-45deg);
+}
+.footer{
+	width:100%;
+	position:relative;
+	box-sizing: border-box;
+	padding:0 1rem 0 0.4rem;
+	margin-top:-0.2rem;
+}
+.logo{
+	width:2.2rem;
+}
+.jiantou{
+	width:2.8rem;
+	margin-left:0.3rem;	
+}

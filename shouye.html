@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+		<title>首页</title>
+	</head>
+	<body>
+		<div class="banner"><img src="img/标题.png"/></div>
+		<div class="two">
+			<a href="1-1.html" ><img class="first" src="img/button-总排行.png"/></a>
+			<a href = "javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('yinying').style.display='block'">
+				<img class="second" src="img/button-活动说明.png"/>
+			</a>
+			<div id="light" class="mini-content">
+				<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('yinying').style.display='none'"><img  class="error" src="img/button-关闭.png"/></a><span class="line">活动说明</span><br />				
+				1.本次打卡活动中，单人&双人的打卡模式随意pick~!<br />
+				2.单人模式随心所欲，双人模式可以邀请自己的好友，也可以根据个性标签匹配日标相似的校友，共同完成打卡。仅一次匹配机会，匹配名单将在打卡群公布~<br />
+				3.打卡分为早起打卡与自定义任务打卡，早起打卡在该平台，打卡交流群用于自定义任务打卡。<br />
+				4.早起打卡和自定义任务打卡均可获得相应的积分。每天完成自定义任务后需上传打卡照片至打卡群相册，我们将根据积分制度，于上午十点在平台上为你更新积分排名榜，记录你15天持之以恒的努力。
+				进入打卡交流Q群XXXXX,开始你的打卡之旅吧!
+			</div>		
+		</div>
+		<div class="back" id="yinying"></div>	
+		<div class="content">
+			<div class="chahua"><img src="img/插画.png"/></div>
+			<div class="deng"><img src="img/插件-台灯.png"/></div>
+			<div class="book"><img src="img/插件-书.png"/></div>
+			<div class="cup"><img src="img/插件-杯子.png"/></div>
+			<div class="star"><img src="img/插件-星星.png"/></div>
+			<div class="phone"><img src="img/插件-手机.png"/></div>
+			<div class="pen"><img src="img/插件-笔.png"/></div>
+			<div class="clock"><img src="img/插件-闹钟.png"/></div>
+		</div>
+		<div id="button">
+			<a href="打卡.html">
+				<img src="img/button-打卡.png"/>
+			</a>
+			<div id="F"><img src="img/好友组队点击效果.png"/></div>		
+			<div id="S"><img src="img/好友组队点击效果.png"/></div>
+			<div id="T"><img src="img/好友组队点击效果.png"/></div>						
+		</div>
+		<div class="footer">
+			<img class="logo" src="img/logo与标准字.png"/>				
+			<a href="choose.html">
+				<img class="jiantou" src="img/插件-下拉提示.png"/>
+			</a>			
+		</div>
+		<script type="text/javascript">
+			var first=document.getElementById('F');
+			var second=document.getElementById('S');
+			var third=document.getElementById('T');
+			button.onclick=function(){
+				first.style.display='block';
+				second.style.display='block';
+				third.style.display='block';
+			}
+		</script>
+		
+	</body>
+</html>

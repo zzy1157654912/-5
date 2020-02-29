@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>总榜单</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/1-1.css"/>
+	</head>
+	
+	<body>
+		<a  href="shouye.html" ><img class="error" src="img/button-关闭.png"/></a>
+		<div class="banner"><img src="img/标题1-1.png"/></div>
+		<div class="jifen"><img src="img/我的积分.png"/></div>
+		<div id="box1">
+			<div class="content">
+				<div class="title"><span class="rank">排名</span><span class="name">姓名</span><span class="num">积分</span>	</div>				
+				<div class="a"><span class="first">NO.1</span><span class="second">这个cp姓名挺长</span><span class="third">90</span>	</div>
+				<div class="b"><span class="first">NO.2</span><span class="second">一二三</span><span class="third">87</span></div>
+				<div class="c"><span class="first">NO.3</span><span class="second">奥里给</span><span class="third">83</span></div>
+				<div class="d"><span class="first">NO.4</span><span class="second">略略略</span><span class="third">75</span></div>
+				<div class="d"><span class="first">NO.5</span><span class="second">哈哈哈</span><span class="third">71</span></div>
+				<div class="d"><span class="first">NO.6</span><span class="second">AWSL</span><span class="third">68</span></div>
+				<div class="d"><span class="first">NO.7</span><span class="second">想不出来了</span><span class="third">55</span></div>
+				<div class="d"><span class="first">NO.8</span><span class="second">起名字好难</span><span class="third">50</span></div>			
+			</div>
+			<div id="cp">cp榜</div>
+			<input  type="button" id="danren" value="单人榜">	
+		</div>		
+		<script type="text/javascript">
+		var danren=document.getElementById('danren');
+		var cp=document.getElementById('cp');
+		var yellow=document.getElementById('box1');	
+		danren.onclick=function(){
+			yellow.style.borderColor='#9bcbea';
+		}
+		cp.onclick=function(){
+			yellow.style.borderColor='#f3c776';
+		}
+		</script>
+	</body>
+</html>
